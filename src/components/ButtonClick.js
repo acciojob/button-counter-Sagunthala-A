@@ -6,6 +6,7 @@ const ButtonClick = ()=> {
     return (
         <div>
             <p>Button clicked {clicked} times</p>
+            {/* <h1>sd</h1> */}
             <button onClick={()=>{setClicked(clicked+1)}} >Click me</button>
         </div>
     )
